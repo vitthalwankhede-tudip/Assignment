@@ -1,0 +1,110 @@
+<!Doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+	</script>
+	<![endif]-->
+	<title>Home page</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="icon" href="imges/homeicon.jpg" type="image/gif/jpg/png" sizes="16x16">
+		<script type="text/javascript" src="Jscriptfile.js"></script>
+	
+	
+	<style>
+		
+	div.demodiv
+	{
+	  background: url(imges/3.jpg)  center;
+	   
+	  background-size: 1418px 300px;
+	  height: 300px;
+		 width: 100%;
+
+	}
+	div.imgdiv
+	{
+	  margin: 30px;
+	  background-color: #ffffff;
+	  background-repeat: no-repeat;
+	  border: 1px solid black;
+	  opacity:6;
+	  width: 100%;
+	  filter:alpha(opacity=60); /* For IE8 and earlier */
+	}
+	div.imgdiv p
+	{
+	  margin: 5%;
+	  font-weight: bold;
+	  color: #000000;
+	}
+
+	</style>
+</head>
+<body bgcolor="grey" onload="getusername();">
+<form name="homeform" >
+	<header align="center">
+
+		<table align="center">
+			<tr> <td >
+				<!--<img  src="ITRo" alt="LOGO" height="10px" width="50px">-->
+				</td><td >
+				<p><h2 id="cname">Tudip Technologies Private limited.</h2>	
+				</p>
+				</td>
+			</tr>
+			<tr><td>
+				<div id="ani" height="100" width="100" style="color:red; backgroundcolor:green;border:1 solid">
+				<!-- spaces for animation below comp name -->&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			</div> </td>
+			</tr>
+			
+		</table>
+	</header>
+	<nav id="">
+		<ul><li><a href="home.html" >Home</a></li>
+		<li><a href="about_us.html" >About Us</a></li>
+		<li><a href="services.html" >Services</a></li>
+		<li><a href="portfolio.html" >Portfolio</a></li>
+		<li><a href="contact_us.html" >Contact Us</a></li>
+		<li><a href="reviews.html" id="liforReview"></a></li>
+		<li><a href="LoginPage.html" >Logout</a></li>
+			<li id="liforname"><b>Welcome</b> </li>
+
+		</ul>
+	</nav>
+	<section>
+		<article>
+				<h2 align="center" > We are awesome!!</h2>
+				<img id="homeimg" src="imges/1.jpg" alt="first image is not loaded" >
+		</article>
+		<article>
+			<div class="demodiv" style="background: url(imges/2.jpg);">
+				<div clas="imgdiv">
+					<p align="center"><center></br> <br><br><br><br><h2 style="color:green;">We Rock!!</h2><br>
+					</center>
+					</p></br>
+				</div>
+			</div>
+		</article>
+		<article>
+			<div class="demodiv" style="background: url(imges/3.jpg);">
+				<div clas="imgdiv">
+					<p align="center"><center></br> <h2>We Are Tudip!!</h2><br>
+					</center>
+					</p></br>
+				</div>
+			</div>
+		</article>
+		
+
+	</section>
+
+	<footer>
+		<p>&copy; 2015 Tudip Technologies. All rights reserved.</p>
+	</footer>
+
+</form>
+</body></html>

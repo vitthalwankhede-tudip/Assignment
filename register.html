@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head> 
+<title>
+Registration page
+</title>
+<style>
+header,footer,section,article {
+    border:1px solid grey;
+    margin:25px;margin-bottom:15px;padding:10px;
+    background-color:white;
+}
+header,footer {
+    color:white;background-color:#444;margin-bottom:5px;
+}
+th,td{
+	padding: 3px;
+}
+</style>
+	<script src="Jscriptfile.js"></script>
+
+</head>
+
+<body bgcolor="grey">
+<form name="regfrm" action="home.html" onsubmit="return check();" method="post">
+<header>
+<h3><center> Welcome To Tudip Technologies!!!</center></h3> </header>
+<br><br>
+<div id="content" margin="25px" align="center" border="1px solid" >
+	<table  ><tr>
+	<td>
+		
+		 First Name&nbsp<input type="text" id="uname" placeholder=" firstName" required="required"><br><br> <br>
+		 Last Name&nbsp<input type="text" id="uname" placeholder="lastName"><br><br> <br>
+		 Date of birth&nbsp&nbsp<input type="date" id="dob"><br><br> <br>
+		 Gender&nbsp&nbsp<input type="radio" id="gender">Male
+		 Gender&nbsp&nbsp<input type="radio" id="gender">Female<br><br> <br>
+		 Address&nbsp&nbsp&nbsp<TEXTAREA id="add" ></TEXTAREA><br><br><br>
+	 	 UserName&nbsp<input type="text" id="uname" placeholder="UserName">
+		<br><br> <br>
+		Password&nbsp&nbsp&nbsp<input type="password" id="pwd" placeholder="password">
+		<br><br><br>
+		
+		&nbsp&nbsp&nbsp<input type="button"  value="register" onclick="showmsg();" >
+	    &nbsp&nbsp&nbsp<input type="button"  value="Cancel" onclick="cl();">
+  		
+	</td></tr></table>
+</div>
+</br></br></br>
+
+<footer>
+	&copy All Rights Reserved!
+ </footer>
+</form>
+</body>
+</html>

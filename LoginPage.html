@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+		<head> 
+			<title>
+				login page
+			</title>
+
+		<style>
+			 #lbluname a:hover 
+			 {
+				background-color: black;
+			 }
+			header,footer,section,article
+			 {
+			    border:1px solid grey;
+			    margin:25px;margin-bottom:15px;padding:10px;
+			    background-color:white;
+			}
+
+			header,footer
+			 {
+		    	color:white;background-color:#444;margin-bottom:5px;
+			}
+
+		</style>
+		<script type="text/javascript" src="Jscriptfile.js"></script>
+		
+	</head>
+<body bgcolor="grey" onload="clearusername();">
+	<form name="loginfrm" action="home.html" onsubmit="return check();" method="post">
+		<header><h3><center> Welcome To Tudip Technologies!!!</center></h3> </header>
+
+			<br><br>
+				<div id="content" align="center" style="border: solid; height:500; width:500; margin:25px;">
+					<table><tr><td>
+							<img src="imges/login.jpg" width="300px" height="300px">
+						</td>
+						<td>
+							<label id="lbluname">Enter UserName</label>
+							&nbsp<input type="text" id="uname" placeholder="UserName"><label id="erUname"></label>
+							<br><br> <br>
+							<label id="lblpwd">Enter Password</label>
+							&nbsp&nbsp&nbsp<input type="password" id="pwd" placeholder="Password"><label id="erpwd"></label>
+							<br><br><br>
+							&nbsp&nbsp&nbsp<input type="submit" id="btnsub" value="  Login " onclick="getuname();" style="height:40px; width=100px;">
+							&nbsp&nbsp&nbsp<input type="button"  value="Register" onclick="redirect();" style="height:40px; width=100px;" >
+						    &nbsp&nbsp&nbsp<input type="button"  value="Cancel" onclick="cancel();" style="height:40px; width=100px;">
+						</td></tr>
+					</table>
+				</div>
+				</br></br></br>
+				</br></br></br>
+				</br></br>
+		<footer>
+		<p>
+		 &copy All Rights Reserved!</p>
+		 </footer>
+	</form>
+</body>
+</html>
